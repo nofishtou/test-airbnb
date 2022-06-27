@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { LayoutComponent } from '@app/ui/theme/layout';
+import { LayoutComponent, LayoutModule } from '@app/ui/theme/layout';
 
 const routes: Routes = [
 	{
@@ -14,7 +14,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes),
+    LayoutModule
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
