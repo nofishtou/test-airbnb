@@ -9,11 +9,12 @@ import { registerLocaleData } from '@angular/common';
 import localeUa from '@angular/common/locales/uk';
 
 import { MAT_DATE_LOCALE } from '@angular/material/core';
+import { LayoutModule } from './ui/theme/layout/layout.module';
 
 registerLocaleData(localeUa);
 @NgModule({
 	declarations: [AppComponent],
-	imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+	imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, LayoutModule],
 	providers: [
 		{
 			provide: LOCALE_ID,
