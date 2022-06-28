@@ -30,7 +30,8 @@
       "@app/ui/icons": ["src/app/ui/icons/index.ts"],
       "@app/core/storage": ["src/app/core/store/index.ts"],
       "@app/core/store/root": ["src/app/core/store/root/index.ts"],
-      "@app/core/store/watcher": ["src/app/core/store/root/watcher/index.ts"]
+      "@app/core/store/watcher": ["src/app/core/store/root/watcher/index.ts"],
+      "@app/core/store/utils": ["src/app/core/store/utils/index.ts"]
     }
   },
   "angularCompilerOptions": {
