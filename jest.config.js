@@ -24,5 +24,6 @@ module.exports = {
 		'@app/core/store/watcher': ['<rootDir>/src/app/core/store/watcher/index.ts'],
 		'@app/core/store/utils': ['<rootDir>/src/app/core/store/utils/index.ts'],
 		'@app/core/common': ['<rootDir>/src/app/core/common/index.ts'],
+		'@app/core/storage': ['<rootDir>/src/app/core/storage/index.ts'],
 	},
 };

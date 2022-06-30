@@ -32,7 +32,7 @@
       "@app/core/store/root": ["src/app/core/store/root/index.ts"],
       "@app/core/store/watcher": ["src/app/core/store/root/watcher/index.ts"],
       "@app/core/store/utils": ["src/app/core/store/utils/index.ts"],
-      "@app/core/common": ["src/app/core/common/index.ts"]
+      "@app/core/common": ["src/app/core/common/index.ts"],
     }
   },
   "angularCompilerOptions": {
